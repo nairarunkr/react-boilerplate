@@ -114,9 +114,8 @@ exports.config = {
   port: 4444,
   host: 'localhost',
   seleniumServerAddress: 'http://localhost:4444/wd/hub',
-  //seleniumAddress: 'http://dcspa02l.unix.anz:4444/wd/hub',
   //seleniumAddress: 'http://localhost:4444/wd/hub',
-  // java -jar selenium-server-standalone-3.6.0.jar -Dwebdriver.chrome.driver=$BDS_WDIO_PATH/test/e2e/chromedriver/chromedriver
+  // java -jar selenium-server-standalone-3.6.0.jar -Dwebdriver.chrome.driver=test/e2e/chromedriver/chromedriver
 
   // see https://github.com/webdriverio/webdriverio/issues/2262
   // still experience socket errors with these 2 settings with selenium jar file 3.7.1
