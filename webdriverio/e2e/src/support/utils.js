@@ -53,9 +53,9 @@ var utils = {
 
   addKerebosTickets: function () {
     // HACK - if a new usr is used in a test the ticket has to be added here
-    var cmd = 'kinit --password-file=$BDS_APP_PATH/e2e/kinit/kinitpword.txt CSPUsr26@GLOBALTEST.ANZ.COM'
+    var cmd = 'kinit --password-file=/e2e/kinit/kinitpword.txt arun@domain.com'
     // utils.runCommandOnTerminal(cmd);
-    var cmd = 'kinit --password-file="$BDS_APP_PATH/e2e/kinit/kinitpword.txt" CSPUsr21@GLOBALTEST.ANZ.COM'
+    var cmd = 'kinit --password-file="/e2e/kinit/kinitpword.txt" arun@domain.com'
     // utils.runCommandOnTerminal(cmd);
   },
 
