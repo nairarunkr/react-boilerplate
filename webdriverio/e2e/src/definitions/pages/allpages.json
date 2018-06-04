@@ -1,0 +1,16 @@
+{
+  "author textbox": "input[name=author]",
+  "getbook button": "button[name=GetBook]",
+  "Title label":"p[name='title']",
+  "Title Value":"span[name='titleValue']",
+  "Author label": "p[name='author']",
+  "Author Value": "span[name='authorValue']",
+  "Publisher label": "p[name='publisher']",
+  "Publisher Value": "span[name='publisherValue']",
+  "Genre label": "p[name='genre']",
+  "Genre Value": "span[name='genreValue']",
+  "Pages label": "p[name='pages']",
+  "Pages Value": "span[name='pagesValue']",
+  "Sale Index label": "p[name='saleindex']",
+  "Sale Index Value": "span[name='saleIndexValue']"
+}

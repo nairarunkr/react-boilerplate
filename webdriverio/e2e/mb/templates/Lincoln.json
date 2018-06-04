@@ -1,0 +1,32 @@
+  "responses": [
+    {
+      "is": {
+        "statusCode": 200,
+        "headers": {"Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"},
+        "body": [{
+          "_id": "58a796f1568df26971bd70da",
+          "title": "Lincoln In The Bardo",
+          "author": "Goerge Sanders",
+          "description": "The long-awaited first novel from the author of Tenth of December",
+          "pages": "368",
+          "saleindex": "7",
+          "publisher": "Random House",
+          "image_url": "http://prodimage.images-bn.com/pimages/9780812995343_p0_v1_s192x300.jpg",
+          "buy_url": "http://www.barnesandnoble.com/w/lincoln-in-the-bardo-george-saunders/1123805737?ean=9780812995343",
+          "genre": "Suspence"
+        }]
+      }
+    }
+  ],
+  "predicates": [
+    {
+      "and": [
+        {
+          "equals": {
+            "path": "/api/bookbyauthor/Goerge%20Sanders",
+            "method": "GET"
+          }
+        }
+      ]
+    }
+  ]

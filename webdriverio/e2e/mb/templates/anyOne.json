@@ -1,0 +1,31 @@
+"responses": [
+  {
+    "is": {
+      "statusCode": 200,
+      "headers": {"Access-Control-Allow-Origin": "*", "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"},
+      "body": [{"_id":"58a7942f568df26971bd70d8","title":"Norse Mythology","author":"${author}[3]","description":"Introducing an instant classic—master storyteller Neil Gaiman presents a dazzling version of the great Norse myths.Neil Gaiman has long been inspired by ancient mythology in creating the fantastical realms of his fiction.","pages":"304","saleindex":"5","publisher":"Norton Co","image_url":"http://prodimage.images-bn.com/pimages/9780393609097_p0_v5_s192x300.jpg","buy_url":"http://www.barnesandnoble.com/w/norse-mythology-neil-gaiman/1124023596?ean=9780393609097","genre":"Drama"}]
+    },
+    "_behaviors": {
+      "copy": [
+        {
+          "from": "path",
+          "into": "${author}",
+          "using": { "method": "regex", "selector": "([^,]+)/([^,]+)/(.+)$" }
+        }
+      ]
+
+    }
+  }
+],
+"predicates": [
+  {
+    "and": [
+      {
+        "contains": {
+          "path": "/api/bookbyauthor/",
+          "method": "GET"
+        }
+      }
+    ]
+  }
+]

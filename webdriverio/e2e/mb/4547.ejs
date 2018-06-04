@@ -1,0 +1,19 @@
+{
+  "port": 8005,
+  "protocol": "http",
+  "defaultResponse": {
+    "statusCode": 400,
+    "body": "SUPER BAD REQUEST"
+  },
+  "stubs": [
+    {
+    <% include templates/Norse.json %>
+    },
+    {
+    <% include templates/Lincoln.json %>
+    },
+    {
+    <% include templates/anyOne.json %>
+    }
+  ]
+}

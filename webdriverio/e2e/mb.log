@@ -1,0 +1,8 @@
+{"level":"info","message":"[mb:2525] mountebank v1.11.0 now taking orders - point your browser to http://localhost:2525 for help","timestamp":"2018-06-04T20:24:58.577Z"}
+{"level":"warn","message":"[mb:2525] Running with --allowInjection set. See http://localhost:2525/docs/security for security info","timestamp":"2018-06-04T20:24:58.578Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2018-06-04T20:24:58.604Z"}
+{"level":"info","message":"[http:8005] Open for business...","timestamp":"2018-06-04T20:24:58.621Z"}
+{"level":"info","message":"[http:8005] ::1:61245 => GET /api/bookbyauthor/Neil%20Gaiman","timestamp":"2018-06-04T20:25:02.427Z"}
+{"level":"info","message":"[http:8005] ::1:61318 => GET /api/bookbyauthor/Goerge%20Sanders","timestamp":"2018-06-04T20:25:05.388Z"}
+{"level":"info","message":"[http:8005] ::1:61373 => GET /api/bookbyauthor/XYZ","timestamp":"2018-06-04T20:25:08.050Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2018-06-04T20:25:11.179Z"}
